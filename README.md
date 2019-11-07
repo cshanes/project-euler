@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 # Test
 ```bash
-export PYTHONPATH=./src/
+export PYTHONPATH=$PYTHONPATH:./src/
 pytest test
 ```
 
